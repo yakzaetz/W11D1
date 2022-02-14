@@ -15,6 +15,7 @@ class Game extends React.Component {
     render(){
         return(
             <div>
+                <p>hellow world</p>
                 <Board board={this.state.board} updateGame={this.updateGame}/>
             </div>
         )
