@@ -10,17 +10,16 @@ class Board extends React.Component {
     render() { 
         const realTiles = this.props.board.grid
         const rows = realTiles.map((row, idx1) => {
-            const tiles = row.map((tile, idx2) => {
-                
-            })
-        }
-        
+                const tiles = row.map((tile, idx2) => {
+                <div>{tile}</div> 
+                })
 
-        return (
-            <div>{row}
-            <div>{tile}</div>
-            </div>
-        )
+            return (
+                <div>{realTiles}
+                </div>
+            )
+        }
+      
     }
 }
 
