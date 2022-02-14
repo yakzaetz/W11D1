@@ -1,7 +1,11 @@
 import React from "react";
 
-function render() {
-
+class Board extends React.Component {
+    
+    render() {
+        debugger 
+        return null;
+    }
 }
 
-// export default Board;
+export default Board;
