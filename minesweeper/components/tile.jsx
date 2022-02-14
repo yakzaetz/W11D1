@@ -1,4 +1,6 @@
-export class Tile extends React.Component {
+import React from "react"
+
+class Tile extends React.Component {
     render() {
         return(
             <div>
@@ -7,3 +9,5 @@ export class Tile extends React.Component {
         )
     }
 }
+
+export default Tile;
