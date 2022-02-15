@@ -14,13 +14,13 @@ class Board extends React.Component {
                 <div>{tile}</div> 
                 })
 
-            return (
-                <div>{realTiles}
-                </div>
-            )
+                return (
+                    <div>{realTiles}
+                    </div>
+                )
+            }
+            
         }
-      
-    }
 }
 
 export default Board;
